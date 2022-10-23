@@ -36,6 +36,6 @@ function twitterTweet() {
     let link = document.createTextNode("Tweet your score!");
     a.appendChild(link);
     a.title = "Tweet your score!";
-    a.href = "https://twitter.com/intent/tweet?text=I just light up " + localDiyasCount + " 🪔 on XX go on try and see can you beat my score!";
+    a.href = "https://twitter.com/intent/tweet?text=I just light up " + localDiyasCount + " 🪔 on https://6355aac6a4e4cf4576aacbe3--magenta-mooncake-b45d1b.netlify.app/ go and try and see can you beat my score!";
     document.getElementById("customMessage").appendChild(a);
 }
